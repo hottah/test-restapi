@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-restapi/static/css/main.ef316e3f.css",
+    "main.js": "/test-restapi/static/js/main.3bcd612a.js",
+    "index.html": "/test-restapi/index.html",
+    "main.ef316e3f.css.map": "/test-restapi/static/css/main.ef316e3f.css.map",
+    "main.3bcd612a.js.map": "/test-restapi/static/js/main.3bcd612a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef316e3f.css",
+    "static/js/main.3bcd612a.js"
+  ]
+}
