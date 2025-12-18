@@ -2,6 +2,9 @@
 
 GitHub Pages + Supabase REST API を用いた CRUD サンプル
 
+Live: https://hottah.github.io/test-restapi/todos
+Source: https://github.com/hottah/test-restapi
+
 ## Overview
 このプロジェクトは、React と Supabase を利用した REST API 連携の Todo アプリケーションです。
 
