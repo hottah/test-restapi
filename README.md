@@ -23,27 +23,27 @@ REST API 連携の学習用途としても、
 
 フロントエンド
 
-# React（Create React App）
+- React（Create React App）
 コンポーネント指向で UI を構築し、シングルページアプリケーション（SPA）として実装しています。
-# React Router
+- React Router
 Todo 一覧、詳細表示、新規作成などの画面遷移をクライアントサイドで管理しています。
-# Axios
+- Axios
 Supabase が提供する REST API との通信を行うための HTTP クライアントとして使用しています。
-# GitHub Pages
+- GitHub Pages
 フロントエンドを静的サイトとしてホスティングしています。
 無料で運用でき、フロントエンドとバックエンドを明確に分離できる点を重視しました。
 
 バックエンド / API
 
-# Supabase（PostgreSQL + REST API）
+- Supabase（PostgreSQL + REST API）
 Supabase により、以下を利用しています。
-- マネージド PostgreSQL データベース
-- 自動生成される REST API（PostgREST）
-- ブラウザから安全にアクセスするための Row Level Security（RLS）
+-- マネージド PostgreSQL データベース
+-- 自動生成される REST API（PostgREST）
+-- ブラウザから安全にアクセスするための Row Level Security（RLS）
 これにより、独自サーバーを構築・運用することなく、
 永続的なデータを扱えるバックエンドを実現しています。
 
-# Row Level Security（RLS）
+- Row Level Security（RLS）
 ブラウザに公開される API キー（anon key）を使用する前提で、
 データの取得・追加・更新・削除を制御しています。
 クライアントサイドから直接 API を呼び出しても安全性を保てる点が特徴です。
